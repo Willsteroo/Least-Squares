@@ -1,0 +1,6 @@
+The program assumes you have stored A in [A] and b in [B]. A^T represents the transpose of A.
+
+[A]^T[A]->[C]               //multiply the transpose of [A] with [A] and store it in [C]
+[A]^T[B]->[D]              //multiply the transpose of [A] with [B] and store it in [D]
+augment([C],[D])->[E]      //Augement [C] with [D] and store it in [E]
+Disp rref([E])>Frac        //reduce row [E] and display it in fraction form
